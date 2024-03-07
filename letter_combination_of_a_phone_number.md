@@ -94,10 +94,6 @@ class Solution:
 3. When the length of the current combination becomes equal to the length of the input string, the combination is added to the result list.
 4. The function backtracks to the previous level of recursion and continues generating combinations by exploring the remaining characters.
 
-### Animation
-
-![Backtracking Approach Animation](https://i.imgur.com/pDwxLKL.gif)
-
 ### Complexity Analysis
 
 - Time Complexity: O(3^N \* 4^M), where N is the number of digits that map to 3 letters, and M is the number of digits that map to 4 letters.
@@ -141,10 +137,6 @@ class Solution:
 2. For each digit, the characters mapped to that digit are retrieved from the `digit_map`.
 3. A list comprehension is used to generate a new `result` list by appending each character from the current digit to each existing string in the current `result` list.
 4. After processing all digits, the final list of combinations is stored in the `result` list, which is returned.
-
-### Animation
-
-![Optimized Iterative Approach Animation](https://i.imgur.com/LPhQaSF.gif)
 
 ### Complexity Analysis
 
